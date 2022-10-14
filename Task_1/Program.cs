@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿//  1) Напишите программу, которая принимает на вход трёхзначное число
+//     и на выходе показывает вторую цифру этого числа.
+Console.Write("Напишите трехзначное число:  ");
+int a = Convert.ToInt32(Console.ReadLine());
+int a1 = a % 100 / 10;
+Console.WriteLine(a1);
